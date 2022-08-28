@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counter machine</title>
+    <!-- <script src=""></script> -->
+    <style>
+      main {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        user-select: none;
+      }
+      .machine {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        height: 400px;
+        width: 300px;
+        background-color: #c7c7c7;
+        border-radius: 15px;
+        border: 1px solid #000;
+        padding: 0 20px;
+        font-size: 40px;
+      }
+
+      .displayNum {
+        /* width: 100px; */
+        text-align: right;
+        cursor: default;
+        border: 1px solid #000;
+        background-color: #a0a0a0;
+        padding: 5px 10px;
+        border-radius: 15px;
+      }
+
+      .btns {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      button {
+        /* width: 50%; */
+
+        border: 0;
+        border-radius: 20%;
+        margin: 0 5px;
+        padding: 10px 20px;
+        font-size: 25px;
+        color: #f0f0f0;
+      }
+      #add {
+        width: 100px;
+        background-color: limegreen;
+      }
+      #reset {
+        background-color: #808080;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="machine">
+        <p class="displayNum" id="display">0</p>
+        <div class="btns">
+          <button class="resetBtn" id="reset">Clear</button>
+          <button class="addBtn" id="add">+</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>

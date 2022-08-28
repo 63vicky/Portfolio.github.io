@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Work Sans", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+.main h1 {
+  color: green;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.main_div {
+  width: 70vw;
+  margin: 3rem auto;
+  height: auto;
+}
+.main_div th, .main_div td {
+  border-top: 1px solid #a1a1a1;
+  border-collapse: collapse;
+}
+.main_div .data_store {
+  width: 100%;
+  border: 1px solid #a1a1a1;
+  border-top: 0;
+  font-weight: 500;
+}
+.main_div .data_store th {
+  padding: 1rem;
+  font-size: 2.7rem;
+  background-color: #e1e1e1;
+  text-align: left;
+}
+.main_div .data_store tr:hover {
+  background-color: #e1e1e1;
+}
+.main_div .data_store td {
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+}
+.main_div input {
+  width: 100%;
+  outline: none;
+  padding: 1.2rem 3rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #a1a1a1;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */
